@@ -1,0 +1,94 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.LettersCalculatorApp-container {
+  display: flex;
+  text-align: center;
+  background: linear-gradient(to right, #1d976c, #93f9b9);
+  background-size: cover;
+  height: 100vh;
+  flex-wrap: wrap;
+  flex-shrink: shrink;
+}
+
+.Letters-card-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-start;
+  padding: 8px;
+  margin: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.Letters-container-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: #ffffffff;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.label {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffffff;
+  font-weight: bold;
+  font-style: none;
+}
+
+.Letters-inputs {
+  height: 60px;
+  width: 350px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid #ffffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffffff;
+  font-weight: bold;
+  font-style: none;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+}
+
+.placeholder {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #e4e7eb;
+  font-weight: bold;
+  font-style: none;
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.calculate-numbers {
+  height: 70px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: #ffffffff;
+  border: 2px solid #ffffffff;
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #219a6f;
+  font-weight: bold;
+  font-style: none;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+}
+
+.container-img {
+  width: 450px;
+  height: 600px;
+}
